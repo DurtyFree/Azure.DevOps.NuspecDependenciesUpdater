@@ -17,7 +17,22 @@
         "Azure Pipelines"
     ],
     "links": {
-        "github": { "uri": "https://github.com/DurtyFree" }
+        "github": { 
+            "uri": "https://github.com/DurtyFree" 
+        },
+        "repository": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.NuspecDependenciesUpdater"
+        },
+        "issues": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.NuspecDependenciesUpdater/issues"
+        },
+        "support": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.NuspecDependenciesUpdater"
+        }
+    },
+    "repository": {
+      "type": "git",
+      "uri": "https://github.com/DurtyFree/Azure.DevOps.NuspecDependenciesUpdater"
     },
     "tags": [
         "nuget",

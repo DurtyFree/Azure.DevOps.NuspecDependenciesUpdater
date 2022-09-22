@@ -11,5 +11,8 @@ This is extremely helpful if the version has just been changed by the build pipe
 # But why?
 Due to modularity our application is split into a lot of NuGet packages which we internally use for various different projects. This task makes it easy to make sure the latest used packages in the project are also defined as dependency of the build NuGet package.
 
+# Download
+Install via Visual Studio / Azure DevOps Marketplace @ https://marketplace.visualstudio.com/items?itemName=AlexanderSchmid.nuspecdependenciesupdater
+
 # Example
 ![Example](./NuspecDependenciesUpdater.Extension/src/images/example.png)
