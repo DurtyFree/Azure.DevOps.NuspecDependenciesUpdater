@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <AssemblyName>TDM.Engine3D.Adapter</AssemblyName>
+    <RootNamespace>TDM.Engine3D.Adapter</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\CompanyInfo.cs" Link="Properties\CompanyInfo.cs" />
+    <Compile Include="..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
+    <Compile Include="..\VersionInfo.cs" Link="Properties\VersionInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="3DServerCoreWSX64" Version="[2020.1.9.10401,2021.0)" />
+    <PackageReference Include="Akka" Version="[1.3.5]" />
+    <PackageReference Include="Akka.DI.Core" Version="1.3.5" />
+    <PackageReference Include="Akka.DI.Ninject" Version="1.1.1" />
+    <PackageReference Include="Akka.Logger.Serilog" Version="1.3.3" />
+    <PackageReference Include="DotNetZip" Version="1.13.3.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.3.1" />
+    <PackageReference Include="TDM.Common" Version="2018.1.0.11" />
+    <PackageReference Include="TDM.Controls.Control3D.Server.Common" Version="[2020.1.2.11969,2021.0)" />
+    <PackageReference Include="TDM.Controls.Control3D.Server.Common.Storage" Version="[2020.1.2.11969,2021.0)" />
+    <PackageReference Include="TDM.Controls.Control3D.Server.Contracts" Version="[2020.1.6.11966,2021.0)" />
+    <PackageReference Include="TDM.Storage" Version="[2020.1.0.2,2021.0)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Engine3D.InstanceManager\Engine3D.InstanceManager.csproj" />
+    <ProjectReference Include="..\Engine3D\Engine3D.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

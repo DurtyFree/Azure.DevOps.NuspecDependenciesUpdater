@@ -1,0 +1,72 @@
+{
+    "manifestVersion": 1,
+    "id": "nuspecdependenciesupdater",
+    "name": "Nuspec Dependencies Updater",
+    "version": "1.1.0",
+    "author": "Alexander Schmid",    
+    "description": "Allows auto updating all nuspec dependencies to latest version used in the projects packages.",
+    "license": "MIT",
+    "publisher": "AlexanderSchmid",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "links": {
+        "github": { "uri": "https://github.com/DurtyFree" }
+    },
+    "tags": [
+        "nuget",
+        "nuget-powertool",
+        "NuspecDependenciesUpdater",
+        "versioning",
+        "nuspec",
+        "dependencies",
+        "latest",
+        "update",
+        "updater",
+        "version",
+        "synchronize",
+        "build",
+        "packages",
+        "packages.config",
+        "optimization"
+    ],
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "icons": {
+        "default": "images/Logo.png"        
+    },
+    "screenshots": [
+        {
+            "path": "images/screen.png"
+        }
+    ],
+    "CustomerQnASupport": {
+        "enableqna":"true"
+    },
+    "files": [
+        {
+            "path": "NuspecDependenciesUpdater"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "NuspecDependenciesUpdater",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "NuspecDependenciesUpdater"
+            }
+        }
+    ]
+}
